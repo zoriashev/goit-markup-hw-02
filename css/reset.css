@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+input,
+textarea {
+  outline: o;
+}
+img {
+  height: auto;
+  display: block;
+}
+button {
+  border: none;
+}
