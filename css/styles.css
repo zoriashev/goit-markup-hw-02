@@ -20,14 +20,10 @@ button {
   padding: 94px 0;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .header-container {
   display: flex;
   justify-content: space-between;
+  height: 80px;
 }
 .header {
   background-color: var(--white-color);
@@ -38,7 +34,8 @@ button {
 .nav-links {
   display: flex;
 }
-.page-nav {
+.page-nav,
+.contacts {
   align-items: center;
 }
 
@@ -48,10 +45,11 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  margin-left: 30%;
-  margin-right: 30%;
+  max-width: 650px;
+  margin: auto;
 }
-.heading-section-two {
+.heading-section-two,
+.heading-portfolio {
   display: none;
 }
 .heading-images {
@@ -63,6 +61,7 @@ button {
 
 .headings-peculiarity {
   line-height: 16px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .paragraph-pecularity {
@@ -87,7 +86,8 @@ button {
 
 .first-section {
   background-color: #2f303a;
-  width: 1600px;
+  height: 600px;
+  max-width: 1600px;
 }
 
 .logo {
@@ -114,12 +114,16 @@ button {
 
 .contacts-link,
 .nav-links-link {
-  padding: 31px 0;
   display: block;
   color: var(--primary-color);
   font-weight: 500;
 }
-
+.contacts-link {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
 .adress-link {
   color: var(--secondary-color);
 }
